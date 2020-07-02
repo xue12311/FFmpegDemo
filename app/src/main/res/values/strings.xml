@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FFmpegDemo</string>
+    <string name="currently_abi">当前使用的abi: %1$s</string>
+    <string name="media_content">媒体详情 : %1$s</string>
+    //  %n$ms：代表输出的是字符串，n代表是第几个参数，设置m的值可以在输出之前放置空格
+    //  %n$md：代表输出的是整数，  n代表是第几个参数，设置m的值可以在输出之前放置空格
+    //  %n$mf：代表输出的是浮点数，n代表是第几个参数，设置m的值可以控制小数位数，如m=4.5时，输出格式为00.00
+    // 注意：%1$s 中1表示”第一个参数“，不是指strings.xml的第一个值，而是一个标记，指明“这是字符串中第几个动态变量”
+
+</resources>

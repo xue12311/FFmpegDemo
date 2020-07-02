@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#d81e06</color>
+    <color name="theme_color_primary">#d20000</color>
+    <color name="black">#000000</color>
+    <color name="common_pressed">#20000000</color>  <!--白色背景按下去的颜色-->
+    <color name="line">#e8e8e8</color>
+    <color name="backgroundeee">#eeeeee</color>
+</resources>

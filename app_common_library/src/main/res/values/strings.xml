@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppCommonLibrary</string>
+    <string name="dialog_loading_message">请求网络中...</string>
+    <string name="dialog_title_text">温馨提示</string>
+    <string name="dialog_button_text_success">确定</string>
+    <string name="dialog_button_text_cancel">取消</string>
+    //  %n$ms：代表输出的是字符串，n代表是第几个参数，设置m的值可以在输出之前放置空格
+    //  %n$md：代表输出的是整数，  n代表是第几个参数，设置m的值可以在输出之前放置空格
+    //  %n$mf：代表输出的是浮点数，n代表是第几个参数，设置m的值可以控制小数位数，如m=4.5时，输出格式为00.00
+    // 注意：%1$s 中1表示”第一个参数“，不是指strings.xml的第一个值，而是一个标记，指明“这是字符串中第几个动态变量”
+    <string name="time_duration_second_string">%1$d-%2$d-%3$d</string>
+
+</resources>

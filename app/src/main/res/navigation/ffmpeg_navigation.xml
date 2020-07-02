@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ffmpeg_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.zjx.ffmpegdemo.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_mediaInfoFragment"
+            app:destination="@id/mediaInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_FFmpegCommandFragment"
+            app:destination="@id/FFmpegCommandFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_FFmpegCommandMoreFragment"
+            app:destination="@id/FFmpegCommandMoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mediaInfoFragment"
+        android:name="com.zjx.ffmpegdemo.MediaInfoFragment"
+        android:label="媒体详情"
+        tools:layout="@layout/fragment_media_info"></fragment>
+    <fragment
+        android:id="@+id/FFmpegCommandFragment"
+        android:name="com.zjx.ffmpegdemo.FFmpegCommandFragment"
+        android:label="FFmpeg命令演示"
+        tools:layout="@layout/fragment_ffmpeg_command" />
+    <fragment
+        android:id="@+id/FFmpegCommandMoreFragment"
+        android:name="com.zjx.ffmpegdemo.FFmpegCommandMoreFragment"
+        android:label="FFmpeg多命令演示"
+        tools:layout="@layout/fragment_ffmpeg_more_command" />
+</navigation>
