@@ -5,6 +5,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.navigation.Navigation
 import com.zjx.appcommonlibrary.base.viewmodel.BaseVmFragment
+import com.zjx.ffmpegdemo.utils.BadgeUtils
 
 class HomeFragment : BaseVmFragment<FFmpegViewModel>() {
     private var tvABI: TextView? = null
@@ -21,6 +22,9 @@ class HomeFragment : BaseVmFragment<FFmpegViewModel>() {
 //        sbuttonMediaInformation?.setOnClickListener { view ->
 //            Navigation.findNavController(view).navigate(R.id.action_homeFragment_to_mediaInfoFragment)
 //        }
+        view.findViewById<Button>(R.id.button_showBadge)?.setOnClickListener { v ->
+            BadgeUtils.setCount(10, activity)
+        }
     }
 
     override fun lazyLoadData() {
